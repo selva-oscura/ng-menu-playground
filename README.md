@@ -2,6 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
+To get this running locally (directions assume git, node, npm, and angular cli are already installed)
+
+To clone 
+<code>git clone https://github.com/selva-oscura/ng-menu-playground.git</code>
+
+Switch to the project's directory
+<code>cd ng-menu-playground</code>
+
+Install dependencies
+<code>npm i</code>
+
+Run server
+<code>ng serve</code>
+
+In a browser, go to localhost:4200
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
