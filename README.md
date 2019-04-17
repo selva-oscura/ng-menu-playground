@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
-To get this running locally (directions assume git, node, npm, and angular cli are already installed)
+## To run locally (directions assume git, node, npm, and angular cli are already installed)
 
 To clone 
 <code>git clone https://github.com/selva-oscura/ng-menu-playground.git</code>
