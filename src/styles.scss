@@ -1,4 +1,117 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global styles and imported style files here */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body {
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+.mat-drawer-container {
+  background-color: #eee;
+  color: #222;
+  height: 100vh;
+}
+
+mat-sidenav {
+  min-width: 200px;
+}
+
+/* Add application styles & imports to this file! */
+@media all and (max-width: 936px) {
+  .main-wrapper {
+    background-color: #fff;
+    margin: 0 48px;
+    min-width: 600px;
+  }
+}
+
+@media all and (min-width: 936px) {
+  .main-wrapper {
+    background-color: #ddd;
+    margin: 0 auto;
+    max-width: 840px;
+  }
+}
+
+@media all and (min-width: 1240px) {
+  .main-wrapper {
+    background-color: #bbb;
+    margin: 0 200px;
+    max-width: 1200px;
+  }
+}
+
+@media all and (min-width: 1600px) {
+  .main-wrapper {
+    background-color: #999;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+}
+
+body {
+  background-color: #dadce0;
+  margin: 0;
+}
+
+.main-wrapper {
+  // background-color: #fff;
+}
+
+.content {
+  border: 1px solid #9aa0a6;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+ul {
+  align-content: stretch;
+  align-items: flex-start;
+  display: flex;
+  flex: 1 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-flow: row wrap; // shothand version */
+  height: 400px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 16px;
+}
+
+.card {
+  border: 1px solid #9aa0a6;
+  border-radius: 8px;
+  margin: 16px;
+  /* order: 1; // applied at each item level */
+  padding: 16px;
+  list-style: none;
+  // min-width: 300px;
+}
+
+@media all and (max-width: 936px) {
+  .card {
+    width: calc(100% - 66px);
+  }
+}
+
+@media all and (min-width: 936px) {
+  .card {
+    width: calc(50% - 66px);
+  }
+}
+
+@media all and (min-width: 1240px) {
+  .card {
+    width: calc(50% - 66px);
+  }
+}
+
+@media all and (min-width: 1600px) {
+  .card {
+    width: calc(25% - 66px);
+  }
+}
